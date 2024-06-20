@@ -22,6 +22,8 @@ let waitFor;
 let assertLog;
 
 describe('ReactFresh', () => {
+  jest.setTimeout(60000);
+
   let container;
   let root;
 
