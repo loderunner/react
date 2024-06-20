@@ -154,6 +154,7 @@ jobs:
             ./build2.tgz
   
   yarn_test_build:
+    name: yarn_test_build-${{ matrix.args }}
     runs-on: ubuntu-latest
     container:
       image: cimg/node:18.20.1-browsers
